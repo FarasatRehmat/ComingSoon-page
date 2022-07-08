@@ -1,0 +1,70 @@
+#div1{
+	height: 48.5rem;
+	overflow: hidden;
+	background-image: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.alpha{
+	background-color: rgba(0,0,0,0.2);
+}
+.img1{
+	position: absolute;
+	width: 95%;
+	height: 40rem;
+	top: 1rem;
+	left: 3rem;
+	border-radius: 2%;
+	background: radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4),rgba(0,0,0,0.8),rgba(0,0,0,1));
+	box-shadow: 0rem 0rem 0.5rem blue;
+}
+#div1 h1{
+	font-size: 5rem;
+	letter-spacing: 0.5rem;
+	text-shadow: 0rem 0rem 0.5rem blue;
+}
+#div1 h1 span{
+	text-shadow: 0rem 0rem 0.5rem white;
+}
+#div1 h2{
+	letter-spacing: 0.1rem;
+}
+#div1 span{
+	color: blue !important;
+}
+.timer span{
+	text-shadow: 0rem 0rem 4rem blue;
+}
+.input1{
+	width: 40rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+.input1 input{
+	font-size: 1rem;
+	background-color: transparent;
+	border-color: blue;
+	box-shadow: none;
+	color: blue !important;
+}
+.input1 input:focus{
+	box-shadow: none !important;
+	border: 0.15rem solid blue;
+	background-color: transparent;
+}
+button{
+	background-color: blue !important;
+	color: white !important;
+	border: none !important;
+}
+button:focus{
+	box-shadow: none !important;
+}
+button:active{
+	box-shadow: 0rem 0rem 1rem blue !important;
+	transform: scale(1.1);
+}
+.icons span:hover{
+	text-shadow: 0rem 0rem 0.5rem white;
+}
